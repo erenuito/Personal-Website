@@ -216,7 +216,7 @@ i18n
             'Ekip Çalışması & İletişim',
             'Zaman Yönetimi & Adaptasyon'
           ],
-          skill_tags_ai: ['Veri Temizleme', 'Veri Kazıma', 'Model Eğitimi', 'Görselleştirme'],
+          skill_tags_ai: ['Veri Temizleme', 'Veri Madenciliği', 'Model Eğitimi', 'Görselleştirme'],
           projects_list: [
             { 
               title: 'Futbolcuların Piyasa Değeri Tahmini', 

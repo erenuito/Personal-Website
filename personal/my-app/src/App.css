@@ -1,15 +1,39 @@
-/* App.css */
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Sayfa geçişleri ve genel font pürüzsüzlüğü */
 body {
   transition: background-color 0.4s ease, color 0.4s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Çapraz tarayıcı desteği ile yumuşak kaydırma */
 html {
   scroll-behavior: smooth;
 }
+
+/* Navigasyon linklerine tıklandığında başlığın navbar altında kalmaması için */
 section {
   scroll-margin-top: 100px;
+}
+
+/* Projeler kısmındaki Accordion animasyonu için bunu eklemen şart kanka */
+@keyframes slideDown {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes slideUp {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+.animate-slideDown {
+  animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.animate-slideUp {
+  animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
 }
