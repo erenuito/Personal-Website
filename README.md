@@ -26,7 +26,8 @@ This is a modern, responsive, and multi-language personal portfolio website buil
 
 ### 🖥️ Desktop Overview
 > Home & About
-> ![Home](https://github.com/user-attachments/assets/578dc601-a6f8-4a26-ac9c-5b1831eabcb6)
+> ![Home](<img width="1234" height="705" alt="image" src="https://github.com/user-attachments/assets/f566c5a7-bb61-4f83-a56e-e582a879aad6" />
+)
 > Experience & Skills
 > ![Skills](https://github.com/user-attachments/assets/9cf1ab28-7bad-4750-a2ad-ad33160b603a)
 
